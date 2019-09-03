@@ -1,0 +1,41 @@
+body{
+    background-color: green
+}
+.container{
+    background: #9e9599;
+    width: 40vw;
+    margin: 100px;
+    border-radius: 15px;
+    padding: 20px 10px;
+    color: black;
+    border: 1.5px solid red
+}
+.header{
+    text-align: center;
+    font-size: 2em;
+    margin: 0.5em
+}
+.todo {
+	border: 2px solid rgb(39, 34, 34);
+	border-radius: 5px;
+	padding: 0.5em;
+    margin: 0.5em;
+    font: bold;
+  }
+  .create-todo input[type=text]{
+      margin: 2.5em 2em;
+      width: 80%;
+      border: rgb(202, 20, 20);
+      outline: none;
+      padding: 0.7em;
+  }
+  .todo button{
+      background: purple;
+      border-radius: 5px;
+      margin: 0px 5px;
+      padding: 3px 5px;
+      border: none;
+      cursor: pointer;
+      color: aqua;
+      float: right
+  }
